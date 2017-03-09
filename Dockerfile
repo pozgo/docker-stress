@@ -1,4 +1,4 @@
-FROM alpine:3.5
+FROM armhf/alpine:3.5
 # Stress Version can be found on offcial website of stress
 # https://people.seas.harvard.edu/~apw/stress/
 ENV STRESS_VERSION=1.0.4 \
