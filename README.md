@@ -1,6 +1,6 @@
 # Stress in a Docker (Alpine)
 
-[![CircleCI Build Status](https://img.shields.io/circleci/project/pozgo/docker-stress/master.svg)](https://circleci.com/gh/pozgo/docker-stress)  
+[![Build Status](https://jenkins.ozgo.info/jenkins/buildStatus/icon?job=gh-pozgo-docker-stress)](https://jenkins.ozgo.info/jenkins/job/gh-pozgo-docker-stress/)  
 [![GitHub Open Issues](https://img.shields.io/github/issues/pozgo/docker-stress.svg)](https://github.com/pozgo/docker-stress/issues)
 [![GitHub Stars](https://img.shields.io/github/stars/pozgo/docker-stress.svg)](https://github.com/pozgo/docker-stress)
 [![GitHub Forks](https://img.shields.io/github/forks/pozgo/docker-stress.svg)](https://github.com/pozgo/docker-stress)  
@@ -9,6 +9,11 @@
 [![](https://images.microbadger.com/badges/version/polinux/stress.svg)](http://microbadger.com/images/polinux/stress)
 [![](https://images.microbadger.com/badges/license/polinux/stress.svg)](http://microbadger.com/images/polinux/stress)  
 [![](https://images.microbadger.com/badges/image/polinux/stress.svg)](http://microbadger.com/images/polinux/stress)
+
+[![Docker build](http://dockeri.co/image/polinux/stress)](https://hub.docker.com/r/polinux/stress/)
+
+Felling like supporting me in my projects use donate button. Thank You!  
+[![](https://img.shields.io/badge/donate-PayPal-blue.svg)](https://www.paypal.me/POzgo)
 
 [Docker Image]() with Stress tool. This image is acting like `stress` command and passes all arguments.
 
