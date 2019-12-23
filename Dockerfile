@@ -13,4 +13,4 @@ RUN \
   apk del g++ make curl && \
   rm -rf /tmp/* /var/tmp/* /var/cache/apk/* /var/cache/distfiles/*
 
-CMD ['/usr/local/bin/stress']
+CMD ["/usr/local/bin/stress"]
