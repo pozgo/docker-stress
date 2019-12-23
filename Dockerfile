@@ -9,7 +9,7 @@ RUN \
   curl -o /tmp/stress-${RELEASE_VERSION}.tgz https://fossies.org/linux/privat/stress-${RELEASE_VERSION}.tar.gz && \
   cd /tmp && tar xvf stress-${RELEASE_VERSION}.tgz && rm /tmp/stress-${RELEASE_VERSION}.tgz && \
   cd /tmp/stress-${RELEASE_VERSION} && \
-  ./configure && make && make install && \
+  ./configure && make -j$(getconf _NPROCESSORS_ONLN) && make install && \
   apk del g++ make curl && \
   rm -rf /tmp/* /var/tmp/* /var/cache/apk/* /var/cache/distfiles/*
 
