@@ -1,6 +1,6 @@
 FROM alpine:latest
 # Stress Version can be found on offcial website of stress
-# https://people.seas.harvard.edu/~apw/stress/
+# https://web.archive.org/web/20190702093856/https://people.seas.harvard.edu/~apw/stress/
 ENV RELEASE_VERSION=1.0.4 \
     SHELL=/bin/bash
 
