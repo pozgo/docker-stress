@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.18.3
 # Stress Version can be found on offcial website of stress
 # https://people.seas.harvard.edu/~apw/stress/
 ENV RELEASE_VERSION=1.0.4 \
